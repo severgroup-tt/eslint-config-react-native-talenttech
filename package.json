@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-react-native-talenttech",
   "version": "1.0.0",
-  "description": "eslint config for react-native developers in TalentTech",
+  "description": "ESLint config for react-native developers in TalentTech",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
