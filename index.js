@@ -1,10 +1,7 @@
 module.exports = {
-  plugins: ['react', 'react-native', 'react-native-globals', '@typescript-eslint'],
+  plugins: ['prettier', 'jsx-a11y', 'import', 'react', 'react-native', 'react-native-globals', '@typescript-eslint'],
   extends: [
     './rules/style',
-    'prettier',
-    'prettier/@typescript-eslint',
-    'prettier/react'
   ].map(require.resolve),
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -19,6 +16,7 @@ module.exports = {
   rules: {
     'dot-notation': 'error',
     'semi': 'error',
+    'comma-dangle': 'off',
     'curly': ['error'],
     'block-spacing': ['error', 'always'],
     'jsx-quotes': ['error', 'prefer-double'],
