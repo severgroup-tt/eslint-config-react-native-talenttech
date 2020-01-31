@@ -1,4 +1,6 @@
 # eslint-config-react-native-talenttech
+[![npm version](https://badge.fury.io/js/eslint-config-react-native-talenttech.svg)](https://badge.fury.io/js/eslint-config-react-native-talenttech)
+
 Конфиг для ESLint в React Native проектах
 
 ### Установить [ESLint](https://eslint.org):
