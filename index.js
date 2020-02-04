@@ -36,6 +36,8 @@ module.exports = {
     'react-native/no-inline-styles': 'off',
     'react-native/no-unused-styles': 'warn',
     'function-paren-newline': ['error', 'multiline-arguments'],
-    'padded-blocks': 'off'
+    'padded-blocks': 'off',
+    'func-names': 'off',
+    'no-nested-ternary': 'off'
   }
 };
