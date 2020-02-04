@@ -15,16 +15,10 @@ module.exports = {
   extends: 'react-native-talenttech',
 };
 ```
-    
-### Установить [Prettier](https://prettier.io):
-    yarn add prettier --dev --exact
-    # or globally
-    yarn global add prettier
 
 ### Добавить в package.json, в раздел scripts:
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "eslint --fix ./src --ext .js,.jsx,.ts,.tsx",
-    "prettier": "npx prettier --write src/**/*.{js,jsx,ts,tsx,json}"
 
 ### Для запуска линтера/исправлений:
     yarn run lint
@@ -32,12 +26,11 @@ module.exports = {
 
 ### Pre-commit hooks:
 > - Установить `yarn add --dev husky`
-> - Выполнить `yarn add --dev pretty-quick`
 > - Добавить в package.json блок:
 > ```
 > "husky": {
 >    "hooks": {
->      "pre-commit": "pretty-quick --staged && yarn lint-fix && yarn lint"
+>      "pre-commit": "yarn lint"
 >    }
 >  }
 > ```
