@@ -6,6 +6,16 @@
 ### Установить [ESLint](https://eslint.org):
     yarn add eslint --dev
     
+### Установить этот конфиг:
+    yarn add eslint-config-react-native-talenttech --dev
+    
+### Создать файл .eslintrc.js и добавить в него:
+```
+module.exports = {
+  extends: 'react-native-talenttech',
+};
+```
+    
 ### Установить [Prettier](https://prettier.io):
     yarn add prettier --dev --exact
     # or globally
@@ -15,13 +25,6 @@
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "eslint --fix ./src --ext .js,.jsx,.ts,.tsx",
     "prettier": "npx prettier --write src/**/*.{js,jsx,ts,tsx,json}"
-
-### Создать файл .eslintrc и добавить в него:
-```
-{
-  "extends": "react-native-talenttech"
-}
-```
 
 ### Для запуска линтера/исправлений:
     yarn run lint

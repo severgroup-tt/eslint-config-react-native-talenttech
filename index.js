@@ -35,5 +35,7 @@ module.exports = {
     'react-native/sort-styles': 'off',
     'react-native/no-inline-styles': 'off',
     'react-native/no-unused-styles': 'warn',
+    'function-paren-newline': ['error', 'multiline-arguments'],
+    'padded-blocks': 'off'
   }
 };
