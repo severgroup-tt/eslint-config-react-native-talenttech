@@ -81,7 +81,6 @@ module.exports = {
 		'no-mixed-spaces-and-tabs': 'error',
 		'no-multi-assign': ['error'],
 
-		'no-nested-ternary': 'error',
 		'no-new-object': 'error',
 		'no-restricted-syntax': [
 			'off',
@@ -104,12 +103,6 @@ module.exports = {
 		],
 		'no-spaced-func': 'error',
 		'no-tabs': 'error',
-		'no-trailing-spaces': [
-			'error', {
-				skipBlankLines: false,
-				ignoreComments: false,
-			},
-		],
 		'no-unneeded-ternary': ['error', { defaultAssignment: false }],
 		'no-whitespace-before-property': 'error',
 		'object-curly-spacing': ['error', 'always'],
@@ -134,13 +127,6 @@ module.exports = {
 		'one-var-declaration-per-line': ['error', 'initializations'],
 		'operator-assignment': ['error', 'always'],
 		'operator-linebreak': ['error', 'before'],
-		'padded-blocks': [
-			'error', {
-				blocks: 'never',
-				classes: 'never',
-				switches: 'never',
-			},
-		],
 		'quote-props': [
 			'error', 'as-needed', {
 				keywords: false,
@@ -182,7 +168,6 @@ module.exports = {
 				},
 			},
 		],
-		'func-names': 'error',
 		'switch-colon-spacing': [
 			'error', {
 				after: true,
@@ -237,7 +222,6 @@ module.exports = {
 		'lines-around-comment': 'off',
 		'func-style': ['off', 'expression'],
 		'id-blacklist': 'off',
-		'function-paren-newline': ['error', 'multiline'],
 		'id-length': 'off',
 		'id-match': 'off',
 		'line-comment-position': [
@@ -256,7 +240,6 @@ module.exports = {
 		'multiline-ternary': ['off', 'never'],
 		'newline-after-var': 'off',
 		'newline-before-return': 'off',
-		'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
 		'no-array-constructor': 'off',
 		'no-inline-comments': 'off',
 		'no-negated-condition': 'off',
@@ -281,5 +264,11 @@ module.exports = {
 		],
 		'sort-vars': 'off',
 		'wrap-regex': 'off',
+		'newline-per-chained-call': ['error', { ignoreChainWithDepth: 1 }],
+		'function-paren-newline': ['error', 'multiline-arguments'],
+		'padded-blocks': 'off',
+		'func-names': 'off',
+		'no-nested-ternary': 'off',
+		'no-trailing-spaces': 'off'
 	},
 };

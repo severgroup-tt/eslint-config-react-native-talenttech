@@ -30,14 +30,6 @@ module.exports = {
     'operator-assignment': ['error', 'always'],
     'indent': ['error', 2],
     'brace-style': 'error',
-    'no-unused-vars': 'off',
-    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 1 }],
-    'react-native/sort-styles': 'off',
-    'react-native/no-inline-styles': 'off',
-    'react-native/no-unused-styles': 'warn',
-    'function-paren-newline': ['error', 'multiline-arguments'],
-    'padded-blocks': 'off',
-    'func-names': 'off',
-    'no-nested-ternary': 'off'
+    'no-unused-vars': 'off'
   }
 };
