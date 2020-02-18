@@ -28,7 +28,6 @@ module.exports = {
     }],
     'no-underscore-dangle': ['error', { enforceInMethodNames: true }],
     'operator-assignment': ['error', 'always'],
-    'indent': ['error', 2],
     'brace-style': 'error',
     'no-unused-vars': 'off'
   }
