@@ -1,25 +1,25 @@
 {
   "name": "eslint-config-react-native-talenttech",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint config for react-native developers in TalentTech",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react-native": "^3.8.1",
-    "eslint-plugin-react-native-globals": "^0.1.2",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-prettier": "3.3.0",
+    "eslint-plugin-react-native": "3.10.0",
+    "eslint-plugin-react-native-globals": "0.1.2",
     "@typescript-eslint/eslint-plugin": "4.10.0",
     "@typescript-eslint/parser": "4.10.0"
   },
   "devDependencies": {
-    "eslint": "6.8.0",
-    "eslint-find-rules": "3.4.0",
+    "eslint": "7.15.0",
+    "eslint-find-rules": "3.6.1",
     "in-publish": "2.0.0",
     "react": ">= 0.13.0",
     "safe-publish-latest": "1.1.4"
